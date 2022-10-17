@@ -1,0 +1,5 @@
+Qual deles apresentou o melhor desempenho?
+
+Com 20 elementos não teve diferença no tempo de resposta dos métodos, mas com 20.000 elementos o merge sort foi bem mais rápido.
+Tempo de processamento do merge sort: 0,0060000 ms
+Tempo de processamento do insertion sort: 0,1420000 ms

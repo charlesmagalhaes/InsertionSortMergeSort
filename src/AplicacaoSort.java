@@ -61,20 +61,23 @@ public class AplicacaoSort {
 			System.out.println("-----------------------------------------------------------");
 			
 			
-			int[] listaMerge2 = gerarArrayRandom(gerador, 20000);
-			
-			 ordenar.imprimirArray(listaMerge2, "Lista de entrada: ");
-				
-				
-				tempoInicial1 = System.currentTimeMillis();
-			
-				ordenar.sort(listaMerge2, 0, listaMerge2.length-1);
-				
-				tempoFinal1 = System.currentTimeMillis();
-				
-				ordenar.imprimirArray(listaMerge2, "Lista Ordenada por Merge Sort: ");
-				
-				System.out.printf("Tempo de processamento: %.7f ms%n", (tempoFinal1 - tempoInicial1) / 1000d);
+			/*
+			 * int[] listaMerge2 = gerarArrayRandom(gerador, 20000);
+			 * 
+			 * ordenar.imprimirArray(listaMerge2, "Lista de entrada: ");
+			 * 
+			 * 
+			 * tempoInicial1 = System.currentTimeMillis();
+			 * 
+			 * ordenar.sort(listaMerge2, 0, listaMerge2.length-1);
+			 * 
+			 * tempoFinal1 = System.currentTimeMillis();
+			 * 
+			 * ordenar.imprimirArray(listaMerge2, "Lista Ordenada por Merge Sort: ");
+			 * 
+			 * System.out.printf("Tempo de processamento: %.7f ms%n", (tempoFinal1 -
+			 * tempoInicial1) / 1000d);
+			 */
 		
 	}
 
