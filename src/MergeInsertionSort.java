@@ -18,9 +18,9 @@ public class MergeInsertionSort {
 		
 	}
 	
-	 public void imprimirArray(int[] lista)
+	 public void imprimirArray(int[] lista, String titulo)
 	    {
-		 System.out.print("Lista organizada: ");
+		 System.out.print(titulo);
 	        for (int i = 0; i < lista.length; ++i)
 	            System.out.print(lista[i] + " ");
 	  

@@ -16,10 +16,11 @@ public class AplicacaoSort {
            System.out.print(numArray[i]+", ");
          }
 		*/
+		ordenar.imprimirArray(numArray, "Lista de entrada: ");
 	
 		ordenar.insertionSort(numArray);
 		
-		ordenar.imprimirArray(numArray);
+		ordenar.imprimirArray(numArray, "Lista Organizada: ");
 		
 
 	}
