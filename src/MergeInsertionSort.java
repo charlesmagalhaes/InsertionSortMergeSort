@@ -1,3 +1,4 @@
+import java.util.concurrent.TimeUnit;
 
 public class MergeInsertionSort {
 	
@@ -15,7 +16,13 @@ public class MergeInsertionSort {
 			}
 			lista[i+1] = key;
 		}
-		
+		/*try {
+			TimeUnit.SECONDS.sleep(1);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		};
+		*/
 	}
 	
 	 public void imprimirArray(int[] lista, String titulo)
@@ -89,6 +96,7 @@ public class MergeInsertionSort {
 	 
 	           merge(lista, l, m, r);
 	        }
+			
 	    }
 	  
 
